@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olena Melnyk</title>
     <link rel="shortcut icon" href="img/png/icon_logo_new_1.png" type="image/png">
+
     <link href="css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="css/index.css">
-    <script defer src="JS/burger-menu.js"></script>
-    <script defer src="JS/nav-menu-fixed.js"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script defer src="js/carousel-swiper.js"></script>
+    <!-- <script defer src="JS/burger-menu.js"></script> -->
+    <!-- <script defer src="JS/nav-menu-fixed.js"></script> -->
     <script defer src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script defer src="JS/transition-smooth-to-section.js"></script>
+    <!-- <script defer src="JS/transition-smooth-to-section.js"></script> -->
     <script defer src="JS/spawn-animation.js"></script>
 
 </head>
@@ -22,443 +29,265 @@
     <div class="wrapper">
 
         <header>
-            <div class="header-mobile__head-block" id="navbar">
-                <div class="header__head-nav-block">
-                    <div class="container">
-                        <div class="header__menu-block">
-                            <div class="header__head-nav-menu-block">
-                                <div class="header__logo-block">
-                                    <a href="index.html">
-                                        <img src="img/svg/icon_logo_string_new.svg" alt="logo" class="header__logo">
-                                    </a>
-                                </div>
+            <div class="header__head-block">
+                <div class="header__bg-glass"> </div>
 
-                                <div class="header__head-burger-menu-icon-block">
-                                    <div class="header__burger-menu-icon-block" id="burgermenu-btn">
-                                        <span class="header__burger-menu-line"></span>
-                                        <span class="header__burger-menu-line"></span>
-                                        <span class="header__burger-menu-line"></span>
-                                    </div>
+                <div class="header__text-left-block">
+                    <h6 class="header__text-left">СВ 2.0</h6>
+                </div>
 
-                                </div>
+                <div class="header__line"></div>
+
+                <div class="header__content-wrapper">
+                    <div class="header__logo-block">
+                        <img src="img/svg/icon_logo_string_new_black.svg" alt="logo" class="header__logo">
+                    </div>
+
+                    <div class="header__quote-block">
+                        <p class="header__quote">&#171;<span>Твій голос ще десятки років буде лунати в головах твоїх
+                                клієнтів...</span>&#187;</p>
+                    </div>
+
+                    <div class="header__title-block">
+                        <h1 class="header__title">Зустріч за зустріччю я змінюю реальність жінок у всьому світі.
+                            <br> <span>Хочеш зі мною?</span>
+                        </h1>
+                    </div>
+
+                    <div class="header__content-block">
+                        <div class="header__text-block">
+                            <p class="header__text-up">Єдиний формат живої зустрічі/практикума, де за 2,5 години ви
+                                зможете усвідомити ключові ситуації, які заважають вам будувати відносини та зрозуміти,
+                                як змінити те, що вам заважає.</p>
+                            <h6 class="header__text-down">СВ 2.0 <br> <span></span></h6>
+                            <p class="header__text-down-small">сценарії відносин 2.0</p>
+
+                            <div class="header__btn-block">
+                                <a href="#" class="my__btn-uppercase my__btn header__btn">Приєднатися</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="header__head-menu-block" id="burgermenu">
-                    <div class="container">
-                        <nav class="header__burgermenu-blocks">
-                            <ul class="header__burgermenu-ul-blocks">
-                                <li class="header__burgermenu-title-block">
-                                    <a href="#home"
-                                        class="header__burgermenu-title my__fixed-transition-point">Головна</a>
-                                </li>
-                                <li class="header__burgermenu-title-block">
-                                    <a href="#about_courses"
-                                        class="header__burgermenu-title my__fixed-transition-point">Про
-                                        курс</a>
-                                </li>
-                                <li class="header__burgermenu-title-block">
-                                    <a href="#topics"
-                                        class="header__burgermenu-title my__fixed-transition-point">Теми</a>
-                                </li>
-                                <li class="header__burgermenu-title-block">
-                                    <a href="#cards"
-                                        class="header__burgermenu-title my__fixed-transition-point">Тарифи</a>
-                                </li>
-                                <li class="header__burgermenu-title-block">
-                                    <a href="#about_me" class="header__burgermenu-title my__fixed-transition-point">Про
-                                        мене</a>
-                                </li>
-                                <li class="header__burgermenu-title-block">
-                                    <a href="#contacts" class="header__burgermenu-title">Контакти</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
             </div>
 
-            <div class="header-desctop__head-block" id="navbar-desctop">
-                <div class="header-desctop__head-nav-block">
-                    <div class="container">
-                        <div class="header-desctop__menu-block">
-                            <div class="header-desctop__head-nav-menu-block">
-                                <div class="header__logo-block">
-                                    <a href="index.html">
-                                        <img src="img/png/icon_logo_only_new.png" alt="logo"
-                                            class="header-desctop__logo">
-                                    </a>
-                                </div>
-                            </div>
-
-
-                            <nav class="header-desctop__burgermenu-blocks">
-                                <ul class="header-desctop__burgermenu-ul-blocks">
-                                    <li class="header-desctop__burgermenu-title-block">
-                                        <a href="#home"
-                                            class="header__burgermenu-title my__fixed-transition-point">Головна</a>
-                                    </li>
-                                    <li class="header-desctop__burgermenu-title-block">
-                                        <a href="#about_courses"
-                                            class="header__burgermenu-title my__fixed-transition-point">Про
-                                            курс</a>
-                                    </li>
-                                    <li class="header-desctop__burgermenu-title-block">
-                                        <a href="#topics"
-                                            class="header__burgermenu-title my__fixed-transition-point">Теми</a>
-                                    </li>
-                                    <li class="header-desctop__burgermenu-title-block">
-                                        <a href="#cards"
-                                            class="header__burgermenu-title my__fixed-transition-point">Тарифи</a>
-                                    </li>
-                                    <li class="header-desctop__burgermenu-title-block">
-                                        <a href="#about_me"
-                                            class="header__burgermenu-title my__fixed-transition-point">Про мене</a>
-                                    </li>
-                                    <li class="header-desctop__burgermenu-title-block">
-                                        <a href="#contacts" class="header__burgermenu-title">Контакти</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </header>
 
         <main>
-            <section class="home" id="home">
-                <div class="container">
-                    <div class="home__head-block">
-                        <div class="home__head-title-container">
-                            <div class="home__head-title-block">
-                                <!-- <h4 class="text-uppercase home__head-title-up">
-                                    Авторський проект Олени Мельник</h4> -->
-                                <!-- <h1 class="home__head-title">&#171;<span class="text-uppercase home__head-title">СВ 2.0</span>&#187;</h1> -->
-                                <h1 class="home__head-title">СВ 2.0</h1>
+
+            <section class="envelope">
+                <div class="envelope__head-block">
+                    <div class="container">
+                        <div class="envelope__content-block">
+                            <div class="envelope__up-block">
+                                <div class="envelope__up-text-block">
+                                    <img src="./img/consultation_foto.JPG" alt="my-foto" class="envelope__up-img">
+                                    <div class="envelope__up-text-wrapper">
+                                        <p class="envelope__up-text"><span>Від: Олени Мельник</span>(автор методик
+                                            розвитку,
+                                            експерт у сфері емоційної компетенції та психології відносин)</p>
+                                        <p class="envelope__up-text"><span>Кому: Дорогій жінці,</span> яка вибрала бути
+                                            моєю
+                                            попутником по дорозі трансформації</p>
+                                    </div>
+                                </div>
+
+                                <div class="envelope__up-mail-block">
+                                    <img src="./img/png/icon-envelope.png" alt="envelope" class="envelope__up-mail">
+                                </div>
                             </div>
 
-                            <div class="home__text-block">
-                                <!-- <p class="home__text">Про те, як віднайти свою силу та стати центром свого життя</p>
-                                <p class="home__text">Проект складається з двох частин: <span
-                                        class="text-uppercase home__text-bold">&#171;<span>Ресурс</span>&#187;</span> та
-                                    <span class="text-uppercase home__text-bold">&#171;<span>Вільна</span>&#187;</span>
-                                </p> -->
-                                <!-- <p class="home__text home__text-min"><span>*</span>Можна проходити окремо</p> -->
-                                <p class="home__text home__text-bold">СТАРТ 20 жовтня</p>
-                            </div>
-
-                            <div class="text-center home__btn-block" id="linkBtnOne">
-                                <a href="#cards"
-                                    class="my__btn-uppercase my__btn-blink btn my__fixed-transition-point"><span
-                                        class="btn-text">Приєднатися</span>
-                                </a>
+                            <div class="envelope__down-block">
+                                <p class="envelope__down-text">Я пишу цього листа, знаходячись у своєму кабінеті, серед
+                                    сотень книг, що були вчителями всі ці роки. Наді мною на стіні висить велика картина
+                                    з зображенням метелика - символом душі у психологічних науках (від грецького psyché
+                                    - душа). І кожного разу, коли я її бачу, я нагадую собі, що все наше життя - це шлях
+                                    метелика. З гусені, через кокон зони невідомості нового до прекрасного метелика. Я
+                                    кілька тижнів думала над цим листом. Можливо слова, що ви почуєте стануть для вас
+                                    поворотною точкою на вашому шляху. </p>
+                                <p class="envelope__down-text">Ви тут тому, що вас цікавить як змінити своє життя за
+                                    допомогою психології. І я хочу вас відмовити або принаймі, попередити, як вся
+                                    індустрія психології обманює вас. <br> <span>Про це далі.</span> </p>
                             </div>
                         </div>
-
-                        <!-- <div class="home__img-block">
-                            <img src="img/private_club_home_foto.jpeg" alt="home-img" class="img-fluid home__img">
-                        </div> -->
                     </div>
                 </div>
             </section>
 
-            <!-- <section class="quote">
-                <div class="container">
-                    <div class="quote__head-block">
-                        <div class="quote__text-block">
-                            <h2 class="quote__title">&#171; <span class="quote__text">Ми часто шукаємо мотивацію, щастя
-                                    у зовнішніх атрибутах. Але суть у
-                                    тому, що все це не можна знайти зовні. Лише всередині</span> &#187;</h2>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-            <!-- <section class="about_courses" id="about_courses">
-                <div class="container">
-                    <div class="about_courses__head-block">
-                        <div class="about_courses__head-title-block">
-                            <h2 class="text-uppercase about_courses__head-title">Чому дві частини?</h2>
-                        </div>
-
-                        <div class="about_courses__line-block">
-                            <span class="about_courses__line element_animation element_animation-left"></span>
-                            <img class="about_courses__line-img element_animation_text"
-                                src="img/png/clover-light-50.png" alt="clover_img">
-                            <span class="about_courses__line element_animation element_animation-right"></span>
-                        </div>
-
-                        <div class="about_courses__text-block">
-                            <p class="about_courses__text">Справжні зміни в житті - це завжди про шлях, який потребує
-                                сил
-                                та енергії. Дізнатися причину, чому не виходить не складно, складно викрокувати та
-                                змінити життя. Тому &#171;<span class="text-uppercase">Шлях
-                                    метелика</span>&#187; складається з двох частин.</p>
-                            <p class="about_courses__text">В першій частині
-                                &#171;<span class="text-uppercase">Ресурс</span>&#187;
-                                ми віднайдемо вашу енергію, дбайливо зберемо ваш ресурс, щоб у другій частині
-                                &#171;<span class="text-uppercase">Вільна</span>&#187;
-                                мати достатньо сил віднайти справжню себе, почати діяти та розкрити внутрішнє джерело
-                                щастя.</p>
-                            <p class="about_courses__text about_courses__text-down">Я щиро рекомендую проходити курси
-                                один за одним.</p>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-            <!-- <section class="results" id="results">
-                <div class="container">
-                    <div class="results__head-block">
-                        <div class="results__head-title-block">
-                            <h2 class="text-center results__head-title element_animation_text">Після курсу &#171;<span
-                                    class="text-uppercase">Ресурс</span>&#187; ви:</h2>
-                        </div>
-                        <ol class="results__list-block results__list-block-up">
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src="img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Відчуєте свою енергію та себе живою</span>
+            <section class="article">
+                <div class="article__head-block">
+                    <div class="container">
+                        <div class="article__content-wrapper">
+                            <div class="article__content-block">
+                                <div class="article__content-item-block">
+                                    <h2 class="article__content-title">Вам брешуть,</h2>
+                                    <p class="article__content">коли кажуть, що для того, щоб не відчувати поганих
+                                        емоцій
+                                        треба щось пропрацювати з дитинства. Мені шкода, але це брехня. Спробуйте
+                                        згадати
+                                        хоч одну пропрацьовку, після якої ваше реальне життя кардинально змінилося так,
+                                        що
+                                        ви перестали злитися та відчувати біль. <span>Життя - це шлях, а емоції - це
+                                            біологічні реакції тіла закладені еволюцією,</span> ми завжди будемо їх
+                                        відчувати. Інша
+                                        справа, як ми з цим справляємось і куди веде нас наш шлях.</p>
                                 </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src="img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Зрозумієте, куди зливається ваш ресурс і як його
-                                        повернути</span>
+                                <div class="article__content-item-block">
+                                    <h2 class="article__content-title">Вам брешуть,</h2>
+                                    <p class="article__content">коли кажуть, що треба лише взяти на себе
+                                        відповідальність і
+                                        діяти, і тоді ви будете щасливі. Часто буває так, що жінка має три роботи, двоє
+                                        дітей, чоловіка і хобі та все одно не відчуває себе щасливою, хоча є дуже
+                                        відповідальною і має непогані результати. <br> <span>Щастя - це стан.</span> І
+                                        воно,
+                                        не залежить від результатів. Інша справа, як зрозуміти і змінити те, що заважає
+                                        мати
+                                        цей стан.</p>
                                 </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src="img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Зможете відчути свою цінність та розширити
-                                        свідомість</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Почнете ставитись до себе з люблячою увагою, а не через
-                                        &#171;<span>треба</span>&#187;</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Зрозумієте, як залишатись в ресурсі</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Зможете керувати своїм емоційним станом</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Віднайдете контакт з дисципліною</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Матимете силу для змін у своєму житті</span>
-                                </div>
-                            </li>
-                        </ol>
-
-                        <div class="results__head-title-block">
-                            <h2 class="text-center results__head-title element_animation_text">Після курсу &#171;<span
-                                    class="text-uppercase">Вільна</span>&#187; ви:</h2>
-                        </div>
-                        <ol class="results__list-block">
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src="img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Відчуєте себе у своєму житті</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src="img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Будете відчувати себе повноцінною, навіть якщо поруч
-                                        немає
-                                        чоловіка, батьків, дітей</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src="img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Знайдете в середині себе опору, будете знати хто ви і
-                                        чого
-                                        хочете</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Навчитесь приймати самостійні рішення</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Більше не будете очікувати схвалення та похвали, щоб
-                                        діяти</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Перестанете щось доводити іншим</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Перестанете бути винною і почнете жити виходячи зі своїх
-                                        потреб</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Відростите у собі почуття гідності і почнете розуміти,
-                                        коли
-                                        дії людей на вашу адресу позитивні і з кохання, а коли зі спроби отримати від
-                                        вас
-                                        щось</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Відчуєте себе особистістю, навіть якщо за правилами
-                                        соціуму
-                                        у вас чогось немає</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Перестанете бути зручною і боятися, що вас
-                                        покинуть</span>
-                                </div>
-                            </li>
-                            <li class="results__text-block element_animation_text">
-                                <div class="results__block">
-                                    <img src=" img/svg/check-mark-1.svg" alt="check-mark" class="results__img">
-                                    <span class="results__text">Почнете проживати своє життя повністю</span>
-                                </div>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-            </section> -->
-
-            <!-- <section class="topics" id="topics">
-                <div class="container">
-                    <div class="topics__head-block">
-                        <div class="topics__main-block">
-                            <div class="topics__block">
-                                <div class="topics__head-title-block">
-                                    <h2 class="text-center topics__head-title element_animation_text">Головні теми курсу
-                                        &#171;<span class="text-uppercase">Ресурс</span>&#187;:</h2>
-                                </div>
-                                <div class="topics__text-block">
-                                    <ul class="topics__list-block topics__list-block-up">
-                                        <li class="topics__list element_animation_text">Дослідження реальності - яке
-                                            насправді зараз ваше життя, та які тенденції
-                                        </li>
-                                        <li class="topics__list element_animation_text">Пошук сліпих зон і патернів
-                                            поведінки,
-                                            що забирають ресурс
-                                        </li>
-                                        <li class="topics__list element_animation_text">Сприйняття реальності - як я
-                                            бачу
-                                            цей
-                                            світ і себе</li>
-                                        <li class="topics__list element_animation_text">Повернення ресурсу</li>
-                                        <li class="topics__list element_animation_text">Розширення свідомості - а що,
-                                            так можна було?</li>
-                                        <!-- <li class="topics__list element_animation_text">Повернення душі</li> -->
-            <!-- <li class="topics__list element_animation_text">Я і дисципліна</li> -->
-            <!-- <li class="topics__list element_animation_text">Навичка лишатись в ресурсі</li> -->
-            <!-- <li class="topics__list element_animation_text">Емоційний стан</li>
-                                        <li class="topics__list element_animation_text">Цілі</li>
-                                    </ul>
+                                <div class="article__content-item-block">
+                                    <h2 class="article__content-title">Вам брешуть,</h2>
+                                    <p class="article__content">коли кажуть, що медитація заспокоює думки. Думки - це
+                                        продукт нашого мозку і поки ви не навчитесь не бути своїми думками, вони будуть
+                                        думати вас. І жодна медитація вас не зупинить. Медитація працює тоді, коли ви
+                                        можете
+                                        усвідомити, що ви - не ваша думка і не ваше тіло. Ви більше, ви душа, що прийшла
+                                        в
+                                        цей світ, щоб бути щасливою. А для цього, потрібна певна кількість усвідомлень.
+                                    </p>
                                 </div>
                             </div>
 
-                            <div class="topics__block">
-                                <div class="topics__head-title-block">
-                                    <h2 class="text-center topics__head-title element_animation_text">Головні теми курсу
-                                        &#171;<span class="text-uppercase">Вільна</span>&#187;:</h2>
-                                </div>
-                                <div class="topics__text-block">
-                                    <ul class="topics__list-block">
-                                        <li class="topics__list element_animation_text">Що таке бути залежною
-                                            (співзалежність та
-                                            контрзалежність)
-                                        </li>
-                                        <li class="topics__list element_animation_text">Працюємо з травматичним досвідом
-                                        </li>
-                                        <li class="topics__list element_animation_text">Що таке власне Я</li>
-                                        <li class="topics__list element_animation_text">Доросла та дитяча частини</li>
-                                        <li class="topics__list element_animation_text">Почуття відкидання</li>
-                                        <li class="topics__list element_animation_text">Самоідентифікація</li>
-                                        <li class="topics__list element_animation_text">Агресія</li>
-                                        <li class="topics__list element_animation_text">Кордони</li>
-                                        <li class="topics__list element_animation_text">Як тримати своє життя</li>
-                                    </ul>
+                            <div class="article__content-block-down">
+                                <div class="article__content-item-block-down">
+                                    <h2 class="article__content-title-down">І найбільша брехня,</h2>
+                                    <p class="article__content-down">яку ми тільки можемо мати в нашому житті, що інша
+                                        людина впливає на наш стан. Що завдяки іншій людині ми можемо бути щаслиивою чи
+                                        нещасною. Що змінивши людину поруч, ми і самі змінюємо свій стан на стан щастя.
+                                        Просто згадайте, коли ви були в останнє по-справжньому щасливою? Коли в останнє
+                                        раділи, як дитина простим речам? Чи вмієте ви взагалі просто радіти? Ні? Рідко?
+                                        Тоді не важливо скільки у вас грошей, чи хто поруч, адже причина нащастя завжди
+                                        знайдеться, адже ця причина в середині вас.</p>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="text-center about_courses__btn-block" id="linkBtnTwo">
-                            <a href="#cards"
-                                class="my__btn-uppercase my__btn-blink btn my__fixed-transition-point"><span
-                                    class="btn-text">Хочу на курс</span>
-                            </a>
-                        </div>
-
-                    </div>
-                </div> -->
-            <!-- </section>  -->
-
-            <!-- <section class="profit">
-                <div class="container">
-                    <div class="profit__head-block">
-                        <div class="profit__head-title-block">
-                            <h2 class="profit__head-title">Що ви отримаєте:</h2>
-                        </div>
-                        <ul class="profit__list-head-block">
-                            <li class="profit__list-block">
-                                <img src="img/png/icons8-audio-wave-50.png" alt="icon_audio" class="profit__list-img">
-                                <p class="profit__list-text">14 аудіоуроків в курсі &#171;<span
-                                        class="text-uppercase">Ресурс</span>&#187; та 15 аудіоуроків в курсі &#171;<span
-                                        class="text-uppercase">Вільна</span>&#187;, що виходитимуть тричі на тиждень</p>
-                            </li>
-                            <li class="profit__list-block">
-                                <img src="img/png/icons8-clock-64.png" alt="icon_clock" class="profit__list-img">
-                                <p class="profit__list-text">Загальна тривалість: <br>&#171;<span
-                                        class="text-uppercase">Ресурс</span>&#187; 5 тижнів<br>&#171;<span
-                                        class="text-uppercase">Вільна</span>&#187; 5 тижнів + один вебінар</p>
-                            </li>
-                            <li class="profit__list-block">
-                                <img src="img/png/icons8-pack-luggage-50.png" alt="icon_luggage"
-                                    class="profit__list-img">
-                                <p class="profit__list-text">Доступ до уроків від 3 місяців після завершення (залежно
-                                    від тарифу)</p>
-                            </li>
-                        </ul>
                     </div>
                 </div>
-            </section> -->
+            </section>
+
+            <section class="paradigm">
+                <div class="paradigm__head-block">
+                    <div class="container">
+                        <div class="paradigm__content-wrapper">
+                            <div class="paradigm__content-up-block">
+                                <div class="paradigm__content-up-title-block">
+                                    <h2 class="paradigm__content-up-title">Нова парадигма мислення</h2>
+                                </div>
+                                <div class="paradigm__content-up-text-block">
+                                    <p class="paradigm__content-up-text">Я - причина усього. І хороший психолог/коуч -
+                                        це
+                                        тренер, щоо передає своєму клієнту свої навички і єдине питання ефективності
+                                        такого процесу - чи отримали ви розуміння &#171;<span>як це працює і чи отримали
+                                            бажане, приміняючи їх в житті?</span>&#187; </p>
+                                </div>
+                            </div>
+
+                            <div class="paradigm__content-block">
+                                <p class="paradigm__content">У випадку моїх зустрічей я передаю свої навички керування
+                                    власним мисленням і власним тілом. Це складно, та я приводжу своїх жінок до стану
+                                    тихої радості. Вчу, бачити старі, руйнуючі життя, петлі мислення. Вчу звільнятися
+                                    від масок та брехні. Вчу це відчувати. І я в цьому майстер, в мене добре це виходить
+                                    у власному житті.</p>
+                                <p class="paradigm__content">Психологія чи коучінг - не професія. Це твоє життя кожну
+                                    хвилину. Ти або власний коуч у власному або ніде. І я вчу цьому мистецтву вас.</p>
+                            </div>
+
+                            <div class="paradigm__content-title-down-block">
+                                <h3 class="paradigm__content-title-down">Нижче ви побачите, що кажуть мої жінки</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials">
+                <div class="testimonials__head-block">
+                    <div class="container">
+
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="./img/consultation_foto.JPG" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./img/private_club_topics.jpeg" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./img/photo_pc_about-me.jpeg" alt="">
+                              </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                          
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                          
+                            <!-- If we need scrollbar -->
+                            <!-- <div class="swiper-scrollbar"></div> -->
+                          </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="preview">
+                <div class="preview__head-block">
+                    <div class="container">
+                        <div class="preview__head-title-block">
+                            <h3 class="preview__head-title">Найближча зустріч</h3>
+                            <p class="preview__head-data">22.10</p>
+                            <h4 class="preview__head-text">св 2.0</h4>
+
+
+                            <div class="preview__btn-block">
+                                <a href="#" class="my__btn-uppercase my__btn preview__btn">Приєднатися</a>
+                            </div>
+                        </div>
+
+                        <div class="preview__desc-head-block">
+                            <p class="preview__desc">Практикум, на якому ми навчимося бачити своє безсвідоме та побачимо
+                                сценарії, за якими ми будуємо стосунки у житті. Як з чоловіками, так і з собою та іншими
+                                оточуючими.</p>
+                            <div class="preview__desc-item-block">
+                                <img src="./img/svg/check-mark-1.svg" alt="check-mark" class="preview__desc-img">
+                                <span class="preview__desc-item">Формат зум-зустріч</span>
+                            </div>
+                            <div class="preview__desc-item-block">
+                                <img src="./img/svg/check-mark-1.svg" alt="check-mark" class="preview__desc-img">
+                                <span class="preview__desc-item">Тривалість 2,5 години + матеріали в группі для
+                                    самостійної
+                                    пропрацьовки</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="topics">
+                <div class="topics__head-block">
+                    <div class="container">
+                        <div class="topics__content-head-block">
+                            <div class="topics__content-title-block">
+                                <h3 class="topics__content-title">Вас чекає:</h3>
+                            </div>
+
+                            <div class="topics__content-down-text-block">
+                                <p class="topics__content-down-text">Після зустрічі ви зрозумієте про себе більше, ніж
+                                    багато людей за місяці особистої терапії.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section class="pc_about_me" id="about_me">
                 <div class="container">
@@ -503,133 +332,22 @@
                 </div>
             </section>
 
-            <!-- <section class="cards" id="cards">
-                <div class="container">
-                    <div class="cards__head-title-block">
-                        <h2 class="cards__head-title">Тарифи:</h2>
-                    </div>
-
-                    <div class="cards__head-block">
-                        <div class="cards__block-item">
-                            <h2 class="cards__item-title">&#171;<span>Можу сама</span>&#187;<br> <span
-                                    class="cards__item-title-courses">&#171;<span>Ресурс</span>&#187; +
-                                    &#171;<span>Вільна</span>&#187;</span></h2>
-                            <h2 class="cards__item-cost">7000 гривень</h2>
-                            <h5 class="cards__item-cost-del">8800 гривень</h5>
-                            <div class="cards__item-line-block">
-                                <span class="cards__item-line"></span>
+            <section class="cost">
+                <div class="cost__head-block">
+                    <div class="container">
+                        <div class="cost-block">
+                            <div class="cost__btn-block">
+                                <a href="#" class="my__btn-uppercase my__btn cost__btn">Приєднатися</a>
                             </div>
 
-                            <p class="cards__item-text-up">Знижка за ціною передпродажу <br>діє до 11.06.23 23:59</p>
-                            <ul class="cards__item-list-block">
-                                <li class="cards__item-list">Самостійне проходження уроків</li>
-                                <li class="cards__item-list">Доступ до всіх уроків протягом 3 місяців після завершення
-                                </li>
-                            </ul>
-                            <div class="text-center about_courses__btn-block">
-                                <a href="https://secure.wayforpay.com/payment/butterfly_path_8800" target="_blank"
-                                    rel="noopener" class="my__btn-uppercase my__btn-blink btn"><span
-                                        class="btn-text">Приєднатися</span>
-                                </a>
-                            </div>
-                            <div class="cards__item-line-block">
-                                <span class="cards__item-line-down"></span>
-                            </div>
-                            <h5 class="cards__item-title-down">Зручно купувати кожен курс окремо? Тоді тобі сюди:</h5>
-                            <h5 class="cards__item-cost-down">4400 гривень</h5>
-                            <h6 class="cards__item-cost-down-del">5500 гривень</h6>
-                            <h4 class="cards__item-name-down"><span>курс</span> &#171;<span>Ресурс</span>&#187;</h4>
-                            <p class="cards__item-text-up">Курс &#171;<span class="text-uppercase">Вільна</span>&#187;
-                                окремо можна буде придбати перед початком</p>
-                            <div class="text-center about_courses__btn-block">
-                                <a href="https://secure.wayforpay.com/payment/butterfly_path_5500" target="_blank"
-                                    rel="noopener" class="my__btn-uppercase my__btn-blink btn"><span
-                                        class="btn-text">Приєднатися</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="cards__block-item">
-                            <h2 class="cards__item-title">&#171;<span>Підсвіти</span>&#187;<br> <span
-                                    class="cards__item-title-courses">&#171;<span>Ресурс</span>&#187; +
-                                    &#171;<span>Вільна</span>&#187;</span></h2>
-                            <h2 class="cards__item-cost">14 000 гривень</h2>
-                            <h5 class="cards__item-cost-del">17 600 гривень</h5>
-                            <div class="cards__item-line-block">
-                                <span class="cards__item-line"></span>
-                            </div>
-
-                            <p class="cards__item-text-up">Знижка за ціною передпродажу <br>діє до 11.06.23 23:59</p>
-                            <ul class="cards__item-list-block">
-                                <li class="cards__item-list">Доступ до всіх уроків протягом 6 місяців після завершення
-                                </li>
-                                <li class="cards__item-list">Мій зворотній звʼязок в особистому листуванні до завдань та
-                                    підтримка на шляху проходження проекту</li>
-                                <li class="cards__item-list cards__item-list-gift">
-                                    <div class="cards__item__block">
-                                        <img src="img/png/icons8-gift-50.png" alt="gift_icon" class="cards__item__img">
-                                        <span class="results__text results__text-gift">Два урока-пропрацьовки на<br>
-                                            сприйняття тіла</span>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="text-center about_courses__btn-block">
-                                <a href="https://secure.wayforpay.com/payment/butterfly_path_17600" target="_blank"
-                                    rel="noopener" class="my__btn-uppercase my__btn-blink btn"><span
-                                        class="btn-text">Приєднатися</span>
-                                </a>
-                            </div>
-                            <div class="cards__item-line-block">
-                                <span class="cards__item-line-down"></span>
-                            </div>
-                            <h5 class="cards__item-title-down">Зручно купувати кожен курс окремо? Тоді тобі сюди:</h5>
-                            <h5 class="cards__item-cost-down">8800 гривень</h5>
-                            <h6 class="cards__item-cost-down-del">11 000 гривень</h6>
-                            <h4 class="cards__item-name-down"><span>курс</span> &#171;<span>Ресурс</span>&#187;</h4>
-                            <p class="cards__item-text-up">Курс &#171;<span class="text-uppercase">Вільна</span>&#187;
-                                окремо можна буде придбати перед початком</p>
-                            <div class="text-center about_courses__btn-block">
-                                <a href="https://secure.wayforpay.com/payment/butterfly_path_11000" target="_blank"
-                                    rel="noopener" class="my__btn-uppercase my__btn-blink btn"><span
-                                        class="btn-text">Приєднатися</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="cards__block-item">
-                            <h2 class="cards__item-title">&#171;<span>Особисте наставництво</span>&#187;</h2>
-                            <h2 class="cards__item-cost">40 000 гривень</h2>
-                            <h6 class="cards__item-cost-down-plus">Лишилось лише 2 місця</h6>
-                            <div class="cards__item-line-block">
-                                <span class="cards__item-line"></span>
-                            </div>
-
-                            <p class="cards__item-text-up">Можлива оплата в два платежі<br>якщо вам потрібно, повідомте
-                                тут<br> <a href="https://telegram.me/ELENA_MELNYK_PV" target="_blank"
-                                    rel="noopener"><img class="footer__contacts-nav-icons-img"
-                                        src="img/svg/telegram_icons_new_color.svg" alt="telegram" width="25"></a></p>
-                            <ul class="cards__item-list-block">
-                                <li class="cards__item-list">Доступ до обох частин &#171;<span>Ресурс</span>&#187; та
-                                    &#171;<span>Вільна</span>&#187; 12 місяців</li>
-                                <li class="cards__item-list">Проходження курсів в своєму темпі з моєю особистою
-                                    підтримкою протягом року</li>
-                                <li class="cards__item-list">Доступ до закритого клубу - психологічної аптечки
-                                    &#171;<span>ПРОжиття</span>&#187; на 12 місяців</li>
-                                <li class="cards__item-list">Після оплати особиста діагностична сесія - пошук запиту,
-                                    складання маршруту на проектах</li>
-                                <li class="cards__item-list">Дві особисті сесії протягом року, коли відчуєте потребу
-                                </li>
-                            </ul>
-                            <div class="text-center about_courses__btn-block">
-                                <a href="https://secure.wayforpay.com/payment/butterfly_path_40000" target="_blank"
-                                    rel="noopener" class="my__btn-uppercase my__btn-blink btn"><span
-                                        class="btn-text">Приєднатися</span>
-                                </a>
+                            <div class="cost__text-block">
+                                <h3 class="cost__text-price">Вартість 1800 грн</h3>
+                                <p class="cost__text">Додатковий бонус при ранній оплаті, доступ до практикума ТМЖ</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </section>
         </main>
 
         <footer id="contacts">
@@ -638,7 +356,7 @@
 
                     <div class="text-center footer__logo-block">
                         <a href="index.html" class="footer__logo">
-                            <img src="img/svg/logo_new.svg" alt="logo" class="footer__logo-img">
+                            <img src="img/svg/logo_new_black.svg" alt="logo" class="footer__logo-img">
                         </a>
                     </div>
 

@@ -1,0 +1,96 @@
+.envelope__head-block {
+    /* background: var(--MAIN-COLOR); */
+
+    /* background: rgba(217, 193, 171, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
+
+    background: var(--2);
+}
+
+.envelope__content-block {
+    padding: 120px 20px 80px;
+}
+
+.envelope__up-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.envelope__up-text-block {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    /* margin: 0 30px 0 0; */
+
+    background: rgba(255, 255, 255, 0.72);
+    border-radius: 7px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.envelope__up-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    margin: 0 20px 0 0;
+}
+
+.envelope__up-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-content: center;
+}
+
+.envelope__up-text-block {
+    padding: 0 0 0 40px;
+}
+
+.envelope__up-text span {
+    font-weight: bold;
+}
+
+.envelope__up-mail-block {
+    /* background: var(--MAIN-COLOR); */
+    border-radius: 50%;
+    padding: 10px;
+    margin: 15px;
+
+    display: flex;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.72);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.envelope__down-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    margin: 40px 0 0;
+
+    background: rgba(255, 255, 255, 0.72);
+    border-radius: 7px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.envelope__down-text span {
+    color: var(--SECONDARY-COLOR);
+    text-transform: uppercase;
+}

@@ -1,6 +1,12 @@
 @import url(common.css);
 @import url(header.css);
 @import url(footer.css);
-@import url(home.css);
+@import url(article.css);
 @import url(about.css);
 @import url(oferta.css);
+@import url(envelope.css);
+@import url(testimonials.css);
+@import url(paradigm.css);
+@import url(preview.css);
+@import url(topics.css);
+@import url(cost.css);

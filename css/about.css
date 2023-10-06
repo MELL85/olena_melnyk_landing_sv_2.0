@@ -1,5 +1,9 @@
 .pc_about_me {
-    background-color: var(--COLOR-BG-SECTION-LIGHT);
+    /* background: rgba(217, 193, 171, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
+
+    background: var(--2);
 }
 
 .pc_about_me__head-block {
@@ -20,7 +24,7 @@
 
 .pc_about_me__head-title {
     font-family: 'Playfair Display', serif;
-    color: var(--COLOR-HEAD-TITLE);
+    color: var(--ACCENT-COLOR);
     font-size: 28px;
     letter-spacing: 1px;
 }
