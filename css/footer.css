@@ -4,14 +4,14 @@ footer {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px); */
 
-    background: var(--1);
+    background: var(--5);
 
     padding: 15px 0;
 }
 
 .footer__contacts-block {
     padding: 0 5px;
-    color: var(--COLOR-TEXT-NAVMENU);
+    color: var(--ACCENT-COLOR);
 }
 
 .footer__logo-img {
@@ -36,13 +36,13 @@ footer {
 }
 
 .footer__contacts-email {
-    color: var(--COLOR-TEXT-NAVMENU);
+    color: var(--ACCENT-COLOR);
     transition: color 0.3s ease;
     cursor: pointer;
 }
 
 .footer__contacts-email:hover {
-    color: var(--COLOR-BG-SECTION-LIGHT);
+    color: var(--SECONDARY-COLOR);
 }
 
 .footer__contacts-messages {
@@ -50,7 +50,13 @@ footer {
 }
 
 .footer__contacts-title-block {
-    margin: 0 30px 0 0;
+    margin: 0 10px 0 0;
+}
+
+@media screen and (min-width: 992px) {
+    .footer__contacts-title-block {
+        margin: 0;
+    }
 }
 
 .footer__contacts-block-messages {
@@ -71,11 +77,11 @@ footer {
     transition: color 0.3s ease;
     cursor: pointer;
     text-decoration: none;
-    color: var(--COLOR-TEXT-NAVMENU);
+    color: var(--ACCENT-COLOR);
 }
 
 .footer__title-color:hover {
-    color: var(--COLOR-BG-SECTION-LIGHT);
+    color: var(--SECONDARY-COLOR);
 }
 
 .footer__contacts-line-block {
@@ -84,7 +90,7 @@ footer {
 }
 
 .footer__contacts-line {
-    border-bottom: 1px solid var(--COLOR-TEXT-NAVMENU);
+    border-bottom: 1px solid var(--ACCENT-COLOR);
     width: 100%;
     color: transparent;
 }
@@ -93,7 +99,7 @@ footer {
     margin: 15px 0 0;
     font-size: 14px;
     text-align: center;
-    color: var(--COLOR-TEXT-NAVMENU);
+    color: var(--ACCENT-COLOR);
 }
 
 @media screen and (min-width: 992px) {

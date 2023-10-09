@@ -1,5 +1,6 @@
 @import url(common.css);
 @import url(header.css);
+@import url(header-mob.css);
 @import url(footer.css);
 @import url(article.css);
 @import url(about.css);
@@ -10,3 +11,4 @@
 @import url(preview.css);
 @import url(topics.css);
 @import url(cost.css);
+@import url(carouselSwiper.css);

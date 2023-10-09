@@ -29,6 +29,9 @@
     --2: #beaa86;
 
 
+    --5: #a19474;
+
+
     /* accent color */
 
     /* --ACCENT-COLOR-1: #ff5733;
@@ -52,6 +55,8 @@ body {
 
 main {
     flex-grow: 1;
+
+    background: var(--2);
 }
 
 .wrapper {

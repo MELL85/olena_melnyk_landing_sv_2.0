@@ -1,0 +1,134 @@
+.preview__head-block {
+    background-image: linear-gradient(to top, rgba(13, 13, 13, 0.7), rgba(13, 13, 13, 0.7)), url(../img/SV_1.jpeg);
+    background-size: cover;
+    background-position: 65% 50%;
+    background-attachment: fixed;
+
+    color: var(--MAIN-COLOR);
+}
+
+@media screen and (min-width: 992px) {
+    .preview__head-block {
+        background-position: 50% 50%;
+    }
+}
+
+.preview__content-wrapper {
+    padding: 65px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+    .preview__content-wrapper {
+        padding: 100px 20px;
+    }
+}
+
+.preview__head-title-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 30px 10px;
+
+    background: rgba(217, 193, 171, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(217, 193, 171, 0.3);
+}
+
+.preview__head-title {
+    font-size: 44px;
+    font-family: 'Oranienbaum', serif;
+    font-weight: bold;
+    letter-spacing: 1.1;
+
+    text-align: center;
+
+    /* text-transform: uppercase; */
+}
+
+@media screen and (min-width: 540px) {
+    .preview__head-title {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .preview__head-title {
+        font-size: 54px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .preview__head-title {
+        font-size: 64px;
+        letter-spacing: 1.5;
+    }
+}
+
+.preview__head-data {
+    font-size: 22px;
+}
+
+@media screen and (min-width: 767px) {
+    .preview__head-data {
+        font-size: 24px;
+    }
+}
+
+.preview__head-text {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 767px) {
+    .preview__head-text {
+        font-size: 32px;
+    }
+}
+
+.preview__btn {
+    margin: 15px 0 0;
+    padding: 10px 40px;
+}
+
+.preview__desc-head-block {
+    margin: 30px 0 0;
+}
+
+@media screen and (min-width: 992px) {
+    .preview__desc-head-block {
+        margin: 50px 0 0;
+    }
+}
+
+.preview__desc {
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+    .preview__desc {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+.preview__desc-item-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.preview__desc-item {
+    margin: 0;
+}

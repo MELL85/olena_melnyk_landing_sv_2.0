@@ -1,0 +1,121 @@
+.paradigm__head-block {
+    background: var(--SECONDARY-COLOR);
+    /* background: var(--6); */
+}
+
+.paradigm__content-wrapper {
+    padding: 80px 20px 50px;
+}
+
+@media screen and (min-width: 992px) {
+    .paradigm__content-wrapper {
+        padding: 100px 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .paradigm__content-wrapper {
+        font-size: 20px;
+    }
+}
+
+.paradigm__content-up-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 20px 0;
+    border-bottom: 1px solid var(--ACCENT-COLOR);
+    border-top: 1px solid var(--ACCENT-COLOR);
+}
+
+@media screen and (min-width: 992px) {
+    .paradigm__content-up-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    
+        border-bottom: 1px solid var(--ACCENT-COLOR);
+        border-top: 1px solid var(--ACCENT-COLOR);
+    }
+}
+
+.paradigm__content-up-title {
+    margin: 0;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Oranienbaum', serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 767px) {
+    .paradigm__content-up-title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .paradigm__content-up-title {
+        font-size: 44px;
+        text-align: start;
+    }
+}
+
+.paradigm__content-up-text-block {
+    text-align: start;
+}
+
+@media screen and (min-width: 992px) {
+    .paradigm__content-up-text-block {
+        margin: 0 0 0 45px;
+    }
+}
+
+.paradigm__content-up-text {
+    margin: 0;
+}
+
+.paradigm__content-block {
+    margin: 20px 0 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .paradigm__content-block {
+        margin: 50px 0 0;
+    
+        width: 50%;
+    }
+}
+
+.paradigm__content-title-down-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: 15px 0 0;
+}
+
+.paradigm__content-title-down {
+    font-size: 26px;
+    font-family: 'Oranienbaum', serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 767px) {
+    .paradigm__content-title-down {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .paradigm__content-title-down {
+        font-size: 34px;
+    }
+}

@@ -1,0 +1,58 @@
+/* .topics__head-block {
+    background: var(--2);
+} */
+
+.topics__content-head-block {
+    padding: 65px 20px 40px;
+}
+
+@media screen and (min-width: 992px) {
+    .topics__content-head-block {
+        padding: 100px 20px;
+    } 
+}
+
+.topics__content-title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topics__content-title {
+    font-family: 'Oranienbaum', serif;
+    font-size: 32px;
+}
+
+@media screen and (min-width: 540px) {
+    .topics__content-title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .topics__content-title {
+        font-size: 44px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .topics__content-title {
+        font-size: 60px;
+    }
+}
+
+.topics__content-down-text {
+    margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .topics__content-down-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .topics__content-down-text {
+        font-size: 22px;
+    }
+}

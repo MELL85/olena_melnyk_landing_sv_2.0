@@ -1,7 +1,11 @@
+.testimonials__head-block {
+    /* background: var(--2); */
 
+    padding: 100px 20px;
+}
 
-
-.swiper {
-    width: 600px;
-    height: 300px;
-  }
+.testimonials__slide-img {
+    /* object-fit: cover; */
+    border-radius: 20px;
+    
+} 
