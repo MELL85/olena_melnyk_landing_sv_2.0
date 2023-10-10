@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 390px) {
     .header-mob__logo {
-        height: 35px;
+        height: 40px;
     }
 }
 
@@ -101,6 +101,7 @@
 @media screen and (min-width: 390px) {
     .header-mob__quote {
         margin: 0 0 1rem;
+        font-size: 13px;
     }
 }
 
@@ -138,7 +139,14 @@
 
 @media screen and (min-width: 390px) {
     .header-mob__text-up {
-        font-size: 14px;
+        font-size: 15px;
+        /* margin: 0 0 1rem; */
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .header-mob__text-up {
+        font-size: 15px;
         margin: 0 0 1rem;
     }
 }
@@ -163,6 +171,12 @@
 }
 
 @media screen and (min-width: 390px) {
+    .header-mob__text-down-small {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 767px) {
     .header-mob__text-down-small {
         margin-bottom: 1rem;
     }
