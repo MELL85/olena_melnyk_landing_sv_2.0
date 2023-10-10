@@ -104,8 +104,10 @@
 
 .paradigm__content-title-down {
     font-size: 26px;
-    font-family: 'Oranienbaum', serif;
-    font-weight: bold;
+    /* font-family: 'Oranienbaum', serif; */
+    font-family: 'Playfair Display', serif;
+    /* font-weight: bold; */
+    font-weight: 600;
 }
 
 @media screen and (min-width: 767px) {

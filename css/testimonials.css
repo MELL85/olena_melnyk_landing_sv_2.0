@@ -1,7 +1,7 @@
 .testimonials__head-block {
     /* background: var(--2); */
 
-    padding: 100px 20px;
+    padding: 100px 10px;
 }
 
 .testimonials__slide-img {
@@ -9,3 +9,9 @@
     border-radius: 20px;
     
 } 
+
+@media screen and (min-width: 767px) {
+    .testimonials__head-block {
+        padding: 100px 20px;
+    }
+}
