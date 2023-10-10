@@ -1,6 +1,13 @@
 .swiper {
-    width: 240px;
-    height: 320px;
+    width: 150px;
+    height: 250px;
+}
+
+@media screen and (min-width: 320px) {
+    .swiper {
+        width: 200px;
+        height: 300px;
+    }
 }
 
 @media screen and (min-width: 540px) {
