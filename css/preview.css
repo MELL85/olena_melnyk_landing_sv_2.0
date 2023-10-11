@@ -52,10 +52,7 @@
     font-family: 'Oranienbaum', serif;
     font-weight: bold;
     letter-spacing: 1.1;
-
     text-align: center;
-
-    /* text-transform: uppercase; */
 }
 
 @media screen and (min-width: 540px) {

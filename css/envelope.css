@@ -2,16 +2,6 @@
     position: relative;
 }
 
-.envelope__head-block {
-    /* background: var(--MAIN-COLOR); */
-
-    /* background: rgba(217, 193, 171, 0.6);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px); */
-
-    /* background: var(--2); */
-}
-
 .envelope__content-block {
     padding: 55px 20px 25px;
 }
@@ -37,7 +27,6 @@
     .envelope__up-block {
         display: flex;
         justify-content: space-between;
-        /* gap: 20px; */
     }
 }
 
