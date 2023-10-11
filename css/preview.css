@@ -2,6 +2,9 @@
     background-image: linear-gradient(to top, rgba(13, 13, 13, 0.7), rgba(13, 13, 13, 0.7)), url(../img/SV_1.jpeg);
     background-size: cover;
     background-position: 65% 50%;
+
+    background-attachment: -webkit-fixed;
+
     background-attachment: fixed;
 
     color: var(--MAIN-COLOR);

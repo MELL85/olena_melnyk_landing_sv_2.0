@@ -174,24 +174,12 @@
 
 @media screen and (min-width: 992px) {
     .envelope__up-mail-block {
-        display: block;
-
-        /* border-radius: 50%; */
-        /* padding: 12px; */
         margin: 15px 25px 15px 0px;
-
         position: relative;
-
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-
-        /* background: rgba(255, 255, 255, 0.72);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.3); */
     }
 
     .envelope__up-mail-bg {
@@ -212,6 +200,8 @@
 .envelope__up-mail {
     width: auto;
     height: 70px;
+
+    filter: drop-shadow(2px 4px 6px var(--SECONDARY-COLOR)) saturate(0.5);
 }
 
 @media screen and (min-width: 992px) {
