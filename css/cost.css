@@ -10,12 +10,21 @@
 }
 
 .cost-block {
-    padding: 65px 20px 40px;
+    padding: 65px 20px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    gap: 30px;
+}
+
+@media screen and (min-width: 767px) {
+    .cost-block {
+        flex-direction: row;
+        gap: 40px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -26,28 +35,53 @@
 
 .cost__wrapper {
     width: 80%;
-    
+
     padding: 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    background: rgba(217, 193, 171, 0.29);
+    /* background: rgba(217, 193, 171, 0.29);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    border: 1px solid rgba(217, 193, 171, 0.3);
+    border: 1px solid rgba(217, 193, 171, 0.3); */
+
+    background: rgba(190, 170, 134, 0.77);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(190, 170, 134, 0.3);
 }
 
 .cost__btn-block {
+    display: flex;
+
     margin: 0 0 20px;
 }
 
+@media screen and (min-width: 767px) {
+    .cost__wrapper {
+        height: 500px;
+        justify-content: space-between;
+    }
+}
+
 @media screen and (min-width: 992px) {
+
+    .cost__wrapper {
+        height: 550px;
+        width: 400px;
+    }
     .cost__btn-block {
         margin: 0 0 30px;
+    }
+
+    .cost__text {
+        font-size: 20px;
     }
 }
 
@@ -59,9 +93,31 @@
     text-align: center;
 }
 
+@media screen and (min-width: 767px) {
+    .cost__text-block {
+
+    }
+}
+
 .cost__text-price {
     font-family: 'Oranienbaum', serif;
     font-size: 28px;
+}
+
+.cost__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.cost__text-wrapper-block {
+    display: flex;
+    gap: 5px;
+}
+
+.cost__text {
+    margin: 0 0 0.5rem;
 }
 
 @media screen and (min-width: 767px) {
@@ -73,6 +129,14 @@
 @media screen and (min-width: 1200px) {
     .cost__text-price {
         font-size: 36px;
+    }
+
+    .cost__text {
+        font-size: 20px;
+    }
+
+    .cost-block {
+        justify-content: space-around;
     }
 }
 

@@ -50,6 +50,10 @@ footer {
     display: flex;
 }
 
+.footer__contacts-block-messages {
+    display: flex;
+    gap: 10px;
+}
 .footer__contacts-title-block {
     margin: 0 10px 0 0;
 }
@@ -60,14 +64,9 @@ footer {
     }
 }
 
-.footer__contacts-block-messages {
-    display: flex;
-}
-
 .footer__contacts-block-messages>a {
     display: flex;
     align-items: flex-start;
-    margin: 0 10px 0;
 }
 
 .footer__contacts-title-head-block {

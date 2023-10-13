@@ -1,3 +1,12 @@
+.topics {
+    background: rgba(255, 255, 255, 0.72);
+    /* border-radius: 7px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
 .topics__content-head-block {
     padding: 65px 20px 40px;
 }
