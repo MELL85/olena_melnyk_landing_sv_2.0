@@ -6,21 +6,6 @@
 
 
 :root {
-    /* --COLOR-TEXT: #5e5957;
-    --COLOR-TEXT-NAVMENU: #9c7035;
-    --COLOR-BG-DARK: #241d1a;
-    --COLOR-BG-BTN-BORDER: #debd9a;
-    --COLOR-BG-BTN: #53453b;
-    --COLOR-HEAD-TITLE: #322c29;
-    --COLOR-BG-SECTION: #d9cbbf;
-    --COLOR-BG-SECTION-LIGHT: #efebe6;
-    --COLOR-BG-BURGERMENU: #655e5a;
-    --COLOR-BG-BTN-COST: #6e3f24;
-    --COLOR-BG-CARD-COST: #b59482;
-    --COLOR-BG-CARD-BORDER: #a67c69;
-    --COLOR-BG-CARD-SHADOW: #a67c69; */
-
-
     --MAIN-COLOR: #d9c1ab;
     --SECONDARY-COLOR: #be967e;
     --ACCENT-COLOR: #0d0d0d;
@@ -30,18 +15,7 @@
 
     --1: #8c8875;
     --2: #beaa86;
-
-
     --5: #a19474;
-
-
-    /* accent color */
-
-    --ACCENT-COLOR-1: #ff5733;
-    --ACCENT-COLOR-2: #ff8c42;
-    --ACCENT-COLOR-3: #007bff;
-    --ACCENT-COLOR-4: #28a745;
-    --ACCENT-COLOR-5: #ffc107;
 
     scroll-behavior: smooth;
 }
@@ -134,38 +108,31 @@ main {
     text-transform: uppercase;
 }
 
-/* 
-.element_animation-left {
-    display: block;
-    content: " ";
-    border: 1px solid;
-    color: var(--COLOR-BG-SECTION-LIGHT);
-    transform: scaleX(0);
-    transform-origin: 100% 0%;
-    transition: transform 2s ease-in-out;
+.my__btn-blink {
+    border: none;
+    background: var(--COLOR-BTN);
+    border-radius: 0.75rem;
+    background-size: 100% auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.7em 1.5em;
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 1.5s infinite;
 }
 
-.element_animation-right {
-    display: block;
-    content: " ";
-    border: 1px solid;
-    color: var(--COLOR-BG-SECTION-LIGHT);
-    transform: scaleX(0);
-    transform-origin: 0% 100%;
-    transition: transform 2s ease-in-out;
-} */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #958579;
+    }
 
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
 
-/* .element_animation.element_show {
-    transform: scaleX(1);
+    100% {
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
 }
-
-.element_animation_text {
-    display: block;
-    opacity: 0;
-}
-
-.element_animation_text.element_show {
-    opacity: 1;
-    transition: opacity 2s;
-} */
