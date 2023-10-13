@@ -32,6 +32,7 @@
     flex-direction: column;
     width: 100vw;
     height: 50vh;
+
     margin: -10px -5px;
 
     position: absolute;
@@ -130,6 +131,10 @@
     font-size: 14px;
 }
 
+.header-mob__btn-block-content {
+    display: none;
+}
+
 @media screen and (min-width: 390px) {
 
     .header-mob__logo {
@@ -161,11 +166,6 @@
         margin-bottom: 0.5rem;
     }
 
-    /* .header-mob__btn-block {
-        position: absolute;
-        top: 87%;
-    } */
-
     .header-mob__btn {
         border-radius: 0;
         padding: 10px 25px;
@@ -178,12 +178,15 @@
         flex-direction: row;
         align-items: flex-start;
 
+        height: 100%;
+
         background-position: 50% 100%;
     }
 
     .header-mob__bg-glass {
         width: 50vw;
-        height: 100vh;
+        /* height: 100vh; */
+        height: 100%;
         margin: 0 -5px;
     }
 
@@ -212,9 +215,15 @@
     }
 
     .header-mob__btn-block {
-        z-index: 20;
+        /* z-index: 20;
         top: 75%;
-        left: 11%;
+        left: 11%; */
+
+        display: none;
+    }
+
+    .header-mob__btn-block-content {
+        display: block;
     }
 }
 
