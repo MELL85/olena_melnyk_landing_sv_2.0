@@ -25,6 +25,9 @@
     --SECONDARY-COLOR: #be967e;
     --ACCENT-COLOR: #0d0d0d;
 
+    --ACCENT-COLOR-SEC: #876d2b;
+    --COLOR-BTN: #241d1a;
+
     --1: #8c8875;
     --2: #beaa86;
 
@@ -34,11 +37,11 @@
 
     /* accent color */
 
-    /* --ACCENT-COLOR-1: #ff5733;
+    --ACCENT-COLOR-1: #ff5733;
     --ACCENT-COLOR-2: #ff8c42;
     --ACCENT-COLOR-3: #007bff;
     --ACCENT-COLOR-4: #28a745;
-    --ACCENT-COLOR-5: #ffc107; */
+    --ACCENT-COLOR-5: #ffc107;
 
     scroll-behavior: smooth;
 }
@@ -104,7 +107,7 @@ main {
 }
 
 .my__btn {
-    background-color: var(--ACCENT-COLOR);
+    background-color: var(--COLOR-BTN);
     cursor: pointer;
     color: var(--SECONDARY-COLOR);
     border-color: transparent;

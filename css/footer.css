@@ -4,7 +4,8 @@ footer {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px); */
 
-    background: var(--5);
+    /* background: var(--5); */
+    background: var(--2);
 
     padding: 15px 0;
 }

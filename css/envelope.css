@@ -238,6 +238,6 @@
 }
 
 .envelope__down-text span {
-    color: var(--SECONDARY-COLOR);
+    color: var(--ACCENT-COLOR-SEC);
     text-transform: uppercase;
 }

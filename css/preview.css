@@ -132,3 +132,34 @@
 .preview__desc-item {
     margin: 0;
 }
+
+
+
+/* .my__btn-blink {
+    border: none;
+    background: var(--COLOR-BTN);
+    border-radius: 0.75rem;
+    background-size: 100% auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.7em 1.5em;
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 1.5s infinite;
+} */
+
+/* @keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #958579;
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+} */
