@@ -31,7 +31,7 @@
     justify-content: flex-start;
     flex-direction: column;
     width: 100vw;
-    height: 50vh;
+    height: 52vh;
 
     margin: -10px -5px;
 
@@ -135,6 +135,12 @@
     display: none;
 }
 
+@media screen and (min-width: 360px) {
+    .header-mob__bg-glass {
+        height: 50vh;
+    }
+}
+
 @media screen and (min-width: 390px) {
 
     .header-mob__logo {
@@ -185,7 +191,6 @@
 
     .header-mob__bg-glass {
         width: 50vw;
-        /* height: 100vh; */
         height: 100%;
         margin: 0 -5px;
     }
@@ -214,11 +219,11 @@
         margin-bottom: 1rem;
     }
 
-    .header-mob__btn-block {
-        /* z-index: 20;
-        top: 75%;
-        left: 11%; */
+    .header-mob__btn {
+        padding: 7px 12px;
+    }
 
+    .header-mob__btn-block {
         display: none;
     }
 
