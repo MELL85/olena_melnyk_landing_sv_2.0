@@ -82,12 +82,6 @@
     text-align: center;
 }
 
-@media screen and (min-width: 767px) {
-    .cost__text-block {
-
-    }
-}
-
 .cost__text-price {
     font-family: 'Oranienbaum', serif;
     font-size: 28px;

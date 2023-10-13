@@ -43,7 +43,7 @@ footer {
 }
 
 .footer__contacts-email:hover {
-    color: var(--SECONDARY-COLOR);
+    color: var(--ACCENT-COLOR-SEC);
 }
 
 .footer__contacts-messages {
@@ -81,7 +81,7 @@ footer {
 }
 
 .footer__title-color:hover {
-    color: var(--SECONDARY-COLOR);
+    color: var(--ACCENT-COLOR-SEC);
 }
 
 .footer__contacts-line-block {
