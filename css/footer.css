@@ -112,9 +112,3 @@ footer {
         align-items: center;
     }
 }
-
-@media screen and (min-width: 1200px) {
-    .footer__contacts-title-head-block {
-        padding: 0 0 0 30px;
-    }
-}
