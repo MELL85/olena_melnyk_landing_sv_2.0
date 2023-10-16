@@ -4,7 +4,7 @@
     background-position: 65% 50%;
     height: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
     color: var(--MAIN-COLOR);
 }
 
@@ -83,6 +83,10 @@
 }
 
 @media screen and (min-width: 767px) {
+    .preview__head-block {
+        background-attachment: fixed;
+    }
+
     .preview__head-title {
         font-size: 54px;
     }
