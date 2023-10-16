@@ -1,12 +1,5 @@
 footer {
-/* 
-    background: rgba(217, 193, 171, 1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px); */
-
-    /* background: var(--5); */
-    background: var(--2);
-
+    background: var(--BG-COLOR);
     padding: 15px 0;
 }
 

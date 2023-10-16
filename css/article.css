@@ -8,19 +8,12 @@
 
 .article__content-block {
     padding: 30px 20px 10px;
-
     background: rgba(255, 255, 255, 0.72);
     border-radius: 7px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-@media screen and (min-width: 992px) {
-    .article__content-block {
-        padding: 50px 20px;
-    }
 }
 
 .article__content-item-block {
@@ -30,19 +23,31 @@
     margin: 0 0 15px;
 }
 
-@media screen and (min-width: 992px) {
-    .article__content-item-block {
-        display: flex;
-        flex-direction: column;
-        padding: 0 20px;
-    }
-}
-
 .article__content-title,
 .article__content-title-down {
     font-family: 'Oranienbaum', serif;
     font-size: 32px;
     margin: 0 0 0.3rem;
+}
+
+.article__content span {
+    color: var(--ACCENT-COLOR-SEC);
+}
+
+.article__content-block-down {
+    margin: 30px 0 50px;
+    padding: 30px 20px 20px;
+    background: rgba(255, 255, 255, 0.72);
+    border-radius: 7px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.article__content-item-block-down {
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 767px) {
@@ -53,42 +58,21 @@
     }
 }
 
-.article__content span {
-    color: var(--ACCENT-COLOR-SEC);
-}
-
-.article__content-block-down {
-    margin: 30px 0 50px;
-    padding: 30px 20px 20px;
-
-    /* background: rgba(190, 150, 126, 1);
-    border-radius: 7px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(190, 150, 126, 0.3); */
-
-    background: rgba(255, 255, 255, 0.72);
-    border-radius: 7px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
 @media screen and (min-width: 992px) {
+    
+    .article__content-block {
+        padding: 50px 20px;
+    }
+
+    .article__content-item-block {
+        padding: 0 20px;
+    }
+
     .article__content-block-down {
         margin: 50px 0 100px;
         padding: 50px 20px;
     }
-}
 
-.article__content-item-block-down {
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (min-width: 992px) {
     .article__content-item-block-down {
         padding: 0 20px;
     }

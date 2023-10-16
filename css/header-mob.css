@@ -16,7 +16,6 @@
 
     width: 100vw;
     height: 100vh;
-
     position: relative;
     z-index: 1;
 }
@@ -32,10 +31,8 @@
     flex-direction: column;
     width: 100vw;
     height: 50vh;
-
     margin: -10px -5px;
     padding: 5px;
-
     position: absolute;
     z-index: 10;
     top: 0;
@@ -57,8 +54,6 @@
 
 .header-mob__logo-block {
     display: none;
-    /* display: flex;
-    justify-content: center; */
 }
 
 .header-mob__logo {
@@ -141,9 +136,6 @@
 }
 
 @media screen and (min-width: 360px) {
-    /* .header-mob__bg-glass {
-        height: 50vh;
-    } */
 
     .header__inner-wrapper {
         margin: 20px 0 0;
@@ -192,9 +184,7 @@
     .header-mob__head-block {
         flex-direction: row;
         align-items: flex-start;
-
         height: 100%;
-
         background-position: 50% 100%;
     }
 

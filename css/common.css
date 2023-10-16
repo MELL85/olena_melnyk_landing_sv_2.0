@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 
 
@@ -9,13 +8,9 @@
     --MAIN-COLOR: #d9c1ab;
     --SECONDARY-COLOR: #be967e;
     --ACCENT-COLOR: #0d0d0d;
-
     --ACCENT-COLOR-SEC: #876d2b;
     --COLOR-BTN: #241d1a;
-
-    --1: #8c8875;
-    --2: #beaa86;
-    --5: #a19474;
+    --BG-COLOR: #beaa86;
 
     scroll-behavior: smooth;
 }
@@ -33,11 +28,10 @@ body {
 main {
     flex-grow: 1;
 
-    background: var(--2);
+    background: var(--BG-COLOR);
 }
 
 .wrapper {
-    /* min-height: 100%; */
     display: flex;
     flex-direction: column;
 }

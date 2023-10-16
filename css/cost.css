@@ -7,37 +7,20 @@
 
 .cost-block {
     padding: 65px 20px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     gap: 30px;
-}
-
-@media screen and (min-width: 767px) {
-    .cost-block {
-        flex-direction: row;
-        gap: 40px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .cost-block {
-        padding: 100px 20px;
-    }
 }
 
 .cost__wrapper {
     width: 80%;
-
     padding: 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     background: rgba(190, 170, 134, 0.77);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -48,30 +31,7 @@
 
 .cost__btn-block {
     display: flex;
-
     margin: 0 0 20px;
-}
-
-@media screen and (min-width: 767px) {
-    .cost__wrapper {
-        height: 500px;
-        justify-content: space-between;
-    }
-}
-
-@media screen and (min-width: 992px) {
-
-    .cost__wrapper {
-        height: 550px;
-        width: 400px;
-    }
-    .cost__btn-block {
-        margin: 0 0 30px;
-    }
-
-    .cost__text {
-        font-size: 20px;
-    }
 }
 
 .cost__text-block {
@@ -103,9 +63,49 @@
     margin: 0 0 0.5rem;
 }
 
+.cost__price {
+    margin: 0 0 10px;
+    font-family: 'Oranienbaum', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 @media screen and (min-width: 767px) {
+    .cost-block {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .cost__wrapper {
+        height: 500px;
+        justify-content: space-between;
+    }
+
     .cost__text-price {
         font-size: 32px;
+    }
+
+    .cost__price {
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cost-block {
+        padding: 100px 20px;
+    }
+
+    .cost__wrapper {
+        height: 550px;
+        width: 400px;
+    }
+
+    .cost__btn-block {
+        margin: 0 0 30px;
+    }
+
+    .cost__text {
+        font-size: 20px;
     }
 }
 
@@ -121,25 +121,8 @@
     .cost-block {
         justify-content: space-around;
     }
-}
 
-.cost__price {
-    margin: 0 0 10px;
-    font-family: 'Oranienbaum', serif;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-@media screen and (min-width: 767px) {
-    .cost__price {
-        font-size: 34px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
     .cost__price {
         font-size: 40px;
     }
 }
-
-
