@@ -6,7 +6,7 @@
     padding: 10px 5px;
     display: flex;
     justify-content: flex-start;
-    background-image: linear-gradient(to top, rgba(36, 29, 26, 0.3), rgba(36, 29, 26, 0.3)), url(../img/SV_2.jpeg);
+    background-image: linear-gradient(to top, rgba(36, 29, 26, 0.3), rgba(36, 29, 26, 0.3)), url(../img/SV_2.webp);
     background-size: cover;
     width: 100vw;
     height: 100vh;
